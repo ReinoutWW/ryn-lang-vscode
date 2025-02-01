@@ -1,3 +1,7 @@
+# Ryn
+
+![20250201_1953_Exploring Ryn's Futuristic Design_remix_01jk1drpm6ejcbeqsbqeg37c3d](https://github.com/ReinoutWW/ryn-lang/blob/master/RYN.gif)
+
 # Ryn Language Support for VS Code
 
 This repository provides syntax highlighting and basic language configuration for the **Ryn** programming language in Visual Studio Code.
