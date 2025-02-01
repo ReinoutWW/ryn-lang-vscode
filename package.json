@@ -1,0 +1,31 @@
+{
+    "name": "ryn-language-support",
+    "displayName": "Ryn Language Support",
+    "description": "Syntax highlighting and basic language configuration for the Ryn language",
+    "version": "0.0.1",
+    "publisher": "ReinoutWijnholds",
+    "engines": {
+      "vscode": "^1.50.0"
+    },
+    "categories": [
+      "Programming Languages"
+    ],
+    "contributes": {
+      "languages": [
+        {
+          "id": "ryn",
+          "aliases": ["Ryn", "ryn"],
+          "extensions": [".ryn"],
+          "configuration": "./language-configuration.json"
+        }
+      ],
+      "grammars": [
+        {
+          "language": "ryn",
+          "scopeName": "source.ryn",
+          "path": "./syntaxes/ryn.tmLanguage.json"
+        }
+      ]
+    }
+  }
+  
